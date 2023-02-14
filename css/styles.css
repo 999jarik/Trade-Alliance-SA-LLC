@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.eot');
+    src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff'),
+        url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.eot');
+    src: url('../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+        url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff'),
+        url('../fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Serif';
+    src: url('../fonts/KyivTypeSerif-Light.eot');
+    src: url('../fonts/KyivTypeSerif-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/KyivTypeSerif-Light.woff2') format('woff2'),
+        url('../fonts/KyivTypeSerif-Light.woff') format('woff'),
+        url('../fonts/KyivTypeSerif-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+.wrap {
+    max-width: 1660px;
+    margin: 0 auto;
+}
+
+/* HEADER STYLES START */
+.header {
+    background: #363131;
+}
+.header__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__left,
+.header__right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu {
+    display: flex;
+    width: 65%;
+    gap: 20%;
+}
+.header__menu-link,
+.header__lang-link {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.header__contacts {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%
+}
+.header__logo {
+    max-width: fit-content;
+}
+.header__lang {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+}
+.social {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15%;
+}
+
+/* HEADER STYLES END */
+
+/* FIRST SCREEN CONTENT START */
+
+.content {
+    background-image: url(../img/firstscreenbg.png);
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    height: 950px;
+    background-color: linear-gradient(180deg, #1E3E42 0%, #101F21 100%);
+}
+.content__box {
+    max-width: 810px;
+    margin: 0 auto;
+    padding: 220px 0 130px;
+}
+.content__text {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+.content__link {
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 88px;
+}
+/* FIRST SCREEN CONTENT END */
+
+/* ABOUT STYLES START */
+
+.about__box {
+    display: flex;
+    padding: 285px 0;
+}
+.about__right {
+    padding: 0 0 0 120px;
+}
+.title {
+    margin-bottom: 62px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.subtitle {
+    margin-bottom: 80px;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #CC937C;
+}
+.img-bord {
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 36px;
+}
+.about__txt {
+    font-family: 'KyivType Serif';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+/* ABOUT STYLES END */
+
+
+/* SERVICE STYLES START */
+.services {
+    background: #F5F5F5;
+}
+.title-service {
+    padding-top: 134px;
+    padding-bottom: 134px;
+}
+.services__box {
+    margin: 0 auto;
+    max-width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.services__txt {
+    padding: 180px 0 0 0;
+    width: 750px;
+    min-height: 270px;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    background-color: #fff;
+    
+}
+.services__txt-wrap {
+    padding: 0 150px;
+    text-align: center;
+}
+/* SERVICE STYLES END */
+
+
+/* DESCRIPTION STYLES START */
+.description {
+    background: #FFFFFF;
+    padding-bottom: 132px;
+}
+.descrip__title {
+    padding: 132px 0 120px 0;
+}
+.descrip__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(165px, auto);
+}
+.descrip__subtitle {
+    padding-top: 18px;
+    margin-bottom: 36px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.descrip__txt {
+    padding-bottom: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.descrip__item {
+    background: url(../img/advantage1.png);
+    background-position: 64px 0;
+    background-repeat: no-repeat;
+}
+.descrip__item:nth-child(2) {
+    background-image: url(../img/advantage2.png);
+}
+.descrip__item:nth-child(3) {
+    background-image: url(../img/advantage3.png);
+}
+.descrip__item:nth-child(4) {
+    background-image: url(../img/advantage4.png);
+}
+.descrip__item:nth-child(5) {
+    background-image: url(../img/advantage5.png);
+}
+.descrip__item:nth-child(6) {
+    background-image: url(../img/advantage6.png);
+}
+
+/* DESCRIPTION STYLES END */
